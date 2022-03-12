@@ -4,4 +4,4 @@
 ### `& C:/Python310/python.exe alphaWordle.py`
 
 ### Enter color combo as so:
-### `bgyyb`
+### color combo: `bgyyb`
