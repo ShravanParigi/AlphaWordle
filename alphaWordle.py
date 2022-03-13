@@ -14,16 +14,24 @@ for x in h:
 
 
 
-print("type the color combo")
+print()
+print("What word would you like to start with?")
+word = input()
+word += " "
+
+print()
+print()
+print('Guess "'+word[:5]+'" in wordle game')
+print()
+print("Then type the color combo using the following key with no spaces")
 print("  b for black or character not found")
 print("  y for yellow or character found but wrong spot")
 print("  g for green or character found in right spot")
-print("e.g. word: stare bbygb")
-word = "trace "
-print('Guess "'+word[:5]+'"')
+print("e.g. color combo: bbygb")
 
 while(len(wordlist) != 1):
     word += input("color combo: ")
+    print()
     # if(word == "print"):
     #     for word in wordlist:
     #         print(word[:5], file = g)
@@ -116,7 +124,6 @@ while(len(wordlist) != 1):
     if(len(wordlist) > 2): 
         countc = 0
         wordToGuess = ""
-        print("")
         print("Calculating word to guess")
         wcount = 0
         for w in wordlistP:
