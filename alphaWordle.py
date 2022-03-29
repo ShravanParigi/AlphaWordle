@@ -15,7 +15,7 @@ for x in h:
 
 
 print()
-print("What word would you like to start with?")
+print("What word would you like to start with? (We recommend "+'"trace")')
 word = input()
 word += " "
 
